@@ -1,3 +1,4 @@
+from Types import tipos, secretos
 from Effectivity import ataque, image_effectivity
 from RPDEffectivity import ataque_reptil, ataque_planta, ataque_grupo1_y, ataque_grupo1_n
 from AAAEffectivity import ataque_ave, ataque_aqua, ataque_grupo2_y, ataque_grupo2_n
@@ -16,6 +17,8 @@ if __name__ == "__main__":
 
         entry_points=[
             CallbackQueryHandler(pattern="start", callback=start_again),
+            CallbackQueryHandler(pattern="tipos", callback=tipos),
+            CallbackQueryHandler(pattern="secretos", callback=secretos),
             CallbackQueryHandler(pattern="efectividad", callback=ataque),
             CallbackQueryHandler(pattern="ataque_reptil", callback=ataque_reptil),
             CallbackQueryHandler(pattern="ataque_planta", callback=ataque_planta),
@@ -40,5 +43,3 @@ if __name__ == "__main__":
 
     updater.start_polling()
     updater.idle()
-
-    
