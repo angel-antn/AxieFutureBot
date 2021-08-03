@@ -66,7 +66,7 @@ def ataque_grupo2_n(update, context):
         "Si el axie que recibe el ataque es un axie tipo Planta, Reptil u Ocaso, "\
         "tu ataque recibe un decremento de daño de 15%, yo que tu me lo pensaria 2 veces...\n\n"\
         "Sin embargo esto no lo es todo, pues si tu axie es tipo Alba la historia cambia...\n\n"\
-        "A este Axie especial le corresponde un bono de 7.5% cuando se trata de ataques Ave y Aqua."\
+        "A este Axie especial le corresponde un bono de 7.5% cuando se trata de ataques Ave y Aqua. "\
         "Por lo que quedaria así:\n\n"\
         "Si el axie que recibe el ataque es un axie tipo Bestia, Bicho o Meca, "\
         "tu ataque recibe un aumento de daño de 22.5%\n\n"\

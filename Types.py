@@ -8,8 +8,7 @@ def tipos(update, context):
     query=update.callback_query
     query.answer()
 
-    query.edit_message_text(text="¡Excelente!\n\n"\
-        "Veamos...\n"\
+    query.edit_message_text(text="Veamos...\n\n"\
         "Existen 9 tipos de Axies: Bestia, Aqua, Planta, Ave, Bicho, Reptil y 3 más que son \"secretos\"\n\n"\
         "¡Bestia! Este tipo de Axie se concentra en acertar buenos golpes criticos. "\
         "Son Axies capaces de obtener el maximo de moral (la moral determina tu daño critico)\n\n"\
